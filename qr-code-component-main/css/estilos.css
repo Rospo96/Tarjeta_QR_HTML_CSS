@@ -1,0 +1,45 @@
+html {
+    width: 100%;
+    box-sizing: border-box;
+}
+body {
+    min-width: 100%;
+    margin: 0;
+    background-color: hsl(212, 45%, 89%);
+}
+.contenedor__tarjetaQR {
+    width: 350px;
+    height: auto;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 20px 0px rgb(160, 175, 189);
+    background-color: hsl(0, 0%, 100%);
+    margin: 2.5rem auto;
+}
+
+.imagen__contenedor {
+    padding: .9rem .9rem 0 .9rem;
+}
+
+.imagen__contenedor img {
+    width: 100%;
+    border-radius: .6rem;
+}
+
+.descripcion__imagen {
+    text-align: center;
+    padding: .9rem 1.2rem 1.5rem 1.2rem;
+    
+}
+
+.descripcion__imagen h3 {
+    font-family: 'Outfit', sans-serif;
+    color: hsl(218, 44%, 22%);
+    font-weight: 700;
+}
+
+.descripcion__imagen p {
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+    color: hsl(220, 15%, 55%);
+    font-weight: 400;
+}
